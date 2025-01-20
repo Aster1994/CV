@@ -18,19 +18,21 @@
 </head>
 
 <body>
-<div class="cv w-full  bg-teal-950 bg-opacity-50">
-	<div class="profile p-6  w-full">
-		<header class="profile__header w-full  flex items-center justify-between">
-			<div class="Profile__user flex items-center w-1/2">
-				<img alt="Profile Image" class="profile__image rounded-full w-40 h-40 " src="Profile-image.JPG">
+<div class="cv w-full bg-teal-950 bg-opacity-50">
+	<div class="profile p-6 w-full">
+		<header class="profile__header w-full flex flex-col md:flex-row items-center justify-between">
+			<div class="Profile__user flex flex-col md:flex-row items-center md:w-2/3">
+				<img alt="Profile Image" class="profile__image rounded-full w-20 h-20 md:w-40 md:h-40" src="Profile-image.JPG">
 				
 				<div class="ml-6">
 					<h1 class="text-4xl">Mina Shafiei</h1>
-					<h4 class="text-lg">Front-end Developer</h4>
+					<h4 class="text-lg">Front-end Developer | Passionate About
+					                    Crafting User-Centric Experiences
+					</h4>
 				</div>
 			</div>
 			
-			<section class="profile__contact w-1/2 mt-6 rounded-xl p-6 bg-zinc-700 text-gray-300">
+			<section class="profile__contact w-full md:w-1/3 mt-6 rounded-xl p-6 bg-zinc-700 text-gray-300">
 				<div class="mobile leading-4 flex items-center text-sm ">
 					<i aria-hidden="true" class="fa fa-mobile-phone text-2xl mr-2"></i>
 					(+98)9...
@@ -59,6 +61,22 @@
 			<div class="profile__summary">
 			</div>
 		</header>
+
+		<section class="profile__summary w-full mt-6 rounded-xl p-6 bg-zinc-700 text-gray-300">
+			<p class="ml-4 mt-2 text-lg ">
+				Mid-level front-end developer with 2 years
+				of experience building dynamic, responsive
+				web applications and adaptive components
+				powered by API-driven data, using Vue.js
+				and Nuxt.js.
+				Passionate about learning and staying
+				up-to-date with the latest technologies
+				and industry trends. Committed to
+				delivering high-quality, scalable
+				solutions while continually growing as a
+				developer.
+			</p>
+		</section>
 		
 		<section class="profile__education w-full mt-6 rounded-xl p-6 bg-zinc-700 text-gray-300">
 			<div class="section__title  flex items-center">
@@ -81,7 +99,7 @@
 		</section>
 		
 		<section class="profile__experience w-full mt-6 rounded-xl p-6 bg-zinc-700 text-gray-300">
-			<div class="section__title  flex items-center">
+			<div class="section__title flex items-center">
 				<i aria-hidden="true" class="fa  fa-briefcase
                     px-4 py-3 mr-4 border rounded-full text-2xl"></i>
 				<h4 class="text-2xl font-bold">Work Experience</h4>
@@ -115,33 +133,41 @@ Title			</li>
 				<h4 class="text-2xl font-bold">Skills</h4>
 			</div>
 			
-			<div class="p-3 grid grid-cols-4 gap-y-1 items-center text-gray-400">
-				<p>Programming</p>
-				<p>HTML</p>
-				<p>JAVASCRIPT</p>
-				<p>VUEX</p>
+			<div class="p-3 grid md:grid-cols-5 gap-y-1 items-center text-gray-400">
+				<div>
+					<p>o JAVASCRIPT</p>
+					<p>o TYPESCRIPT</p>
+					<p class="text-gray-300 font-bold">o VUE JS 2,3</p>
+					<p class="text-gray-300 font-bold">o NUXT JS 2,3</p>
+				</div>
 				
-				<p>Research</p>
-				<p>CSS</p>
-				<p>TYPESCRIPT</p>
-				<p>PINIA</p>
+				<div>
+					<p>o HTML 5</p>
+					<p>o CSS, SCSS</p>
+					<p>o GIT</p>
+					<p>o GSAP</p>
+				</div>
 				
-				<p>Problem Solving</p>
-				<p>TAILWIND CSS</p>
-				<p>VUE JS 2,3</p>
-				<p>VUEI18n</p>
+				<div>
+					<p>o VUEX</p>
+					<p>o PINIA</p>
+					<p>o VUE-I18n</p>
+					<p>o NUXT-Content</p>
+				</div>
 				
+				<div>
+					<p>o TAILWIND CSS</p>
+					<p>o VUETIFY</p>
+					<p>o DAISYUI</p>
+					<p>o Apex-Chart</p>
+				</div>
 				
-				<p>GIT</p>
-				<p>VUETIFY</p>
-				<p>NUXT JS 2,3</p>
-				<p>NUXT Content</p>
-				
-				
-				<p>WORDPRESS</p>
-				<p>PRIME VUE</p>
-			
-			
+				<div>
+					<p>o Programming</p>
+					<p>o Problem Solving</p>
+					<p>o Research</p>
+					<p>o Collaboration</p>
+				</div>
 			</div>
 		
 		</section>
@@ -153,7 +179,7 @@ Title			</li>
 				<h4 class="text-2xl font-bold">Hobbies</h4>
 			</div>
 			
-			<div class="p-3 grid grid-cols-4 gap-y-1 items-center text-gray-400">
+			<div class="p-3 grid md:grid-cols-5 gap-y-1 items-center text-gray-400">
 				<p>Painting</p>
 				<p>Work Out</p>
 				<p>Programming</p>
@@ -169,7 +195,7 @@ Title			</li>
 				<h4 class="text-2xl font-bold">Some Of My Work samples</h4>
 			</div>
 			
-			<div class="p-3 grid grid-cols-4 gap-y-1 items-center text-gray-400">
+			<div class="p-3 grid md:grid-cols-5 gap-y-1 items-center text-gray-400">
 
 				<a href="https://dibsetan.ir/" target="_blank">dibsetan.ir</a>
 				<a href="https://app.dibsetan.ir/" target="_blank">app.dibsetan.ir</a>
